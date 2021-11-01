@@ -60,11 +60,11 @@ values will also be calculated.
 it's ridiculously slow, and wasn't analysed this way in the paper).
 * Select your desired approximation method by setting `desiredApproxMethod = 
 NO_APPROX`, `P_ONE`, `P_FIVE`, or `P_K_MINUS_ONE` as desired.
-* Set `keepCertificates = True' if you want the certificate for your final run to 
+* Set `keepCertificates = True` if you want the certificate for your final run to 
 be tested, and False otherwise (this is quite a slow process).
-* Set `endlessRunning = True' if you want to calculate the surfaces for the same 
+* Set `endlessRunning = True` if you want to calculate the surfaces for the same 
 k values repeatedly for time trials (this will never test a certificate).
-* Use outputFilename to set your desired file for `.csv' output.
+* Use outputFilename to set your desired file for `.csv` output.
 
 To execute the method, type:
 
